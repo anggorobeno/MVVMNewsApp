@@ -2,9 +2,7 @@ package com.androiddevs.mvvmnewsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
 import androidx.navigation.findNavController
-import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.androiddevs.mvvmnewsapp.databinding.ActivityNewsBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -27,5 +25,6 @@ class NewsActivity : AppCompatActivity() {
 //            }
 //            true
 //        }
+
     }
 }
